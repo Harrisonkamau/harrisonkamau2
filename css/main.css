@@ -47,6 +47,7 @@
     background-image: url(../images/drill.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
   }
   .fade-in li:nth-child(2) span {
       background-image: url(../assets/2.jpg);
