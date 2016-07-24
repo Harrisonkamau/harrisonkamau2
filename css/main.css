@@ -6,3 +6,11 @@
     padding-left: 25px;
 
   }
+
+.cb-slideshow a{
+  text-decoration: none;
+  color:#fff;
+}
+.cb-slideshow  a:hover{
+  color:orange;
+}
