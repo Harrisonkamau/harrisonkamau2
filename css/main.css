@@ -12,7 +12,7 @@ header h3{
      top: 480px;
      left: 0;
      width: 100%;
-     
+
   }
   header h1 {
      position: absolute;
@@ -22,3 +22,11 @@ header h3{
      left: 0;
      width: 100%;
   }
+
+#about h3{
+  font-family: 'Lobster', cursive;
+
+}
+#about {
+  background: #ddd;
+}
