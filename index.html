@@ -15,45 +15,39 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/top-navbar.css">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-inverse fixed-top">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a style="font-family: 'Lobster', cursive; color:orange; font-size: 28px;" class="navbar-brand" href="#">Harrison Kamau</a>
-          </div>
-          <ul class="nav navbar-nav" style="list-style-type:none;">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#work">WORK</a></li>
-            <li><a href="https://www.facebook.com/harrison.kamau.71"/><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="https://twitter.com/ChegeHarrison"/><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="https://googleplus.com/HarrisonKamau"/><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-      <div id="page">
-          <ul class="cb-slideshow" style="list-style-type:none;">
-              <li><span>Image 01</span><div><h3>Harrison Kamau</h3><h6>Future software engineer</h6></div></li>
-              <li><span>Image 02</span><div><h3>ing.en.ui.ty</h3></div></li>
-              <li><span>Image 03</span><div><h3>bal·an.ce</h3></div></li>
-              <li><span>Image 04</span><div><h3>pr.ogr.am.mer</h3></div></li>
-              <li><span>Image 05</span><div><h3>ana.ly.st</h3></div></li>
-              <li><span>Image 06</span><div><h3>ent.hus.ias.t</h3></div></li>
-            </ul>
+    <body class="demo">
+      <!-- Navigation -->
+      <div class="my-nav">
+         <nav class="navbar navbar-custom navbar-fixed-top mnav" role="navigation">
+            <div class="container">
+               <div class="navbar-header mnav">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars fa-2x"></i> </button>
+                  <a class="navbar-brand page-scroll mnav" href="##"> Harrison Kamau </a>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse navbar-right navbar-main-collapse mnav">
+                  <ul class="nav navbar-nav mnav">
+                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                     <li class="hidden mnav"> <a href="#page-top"></a> </li>
+                     <li> <a  href="#home">Home</a> </li>
+                     <li> <a  href="#about">About</a> </li>
+                     <li> <a  href="#service">Service</a> </li>
+                     <li> <a  href="#product">Product</a> </li>
+                     <li> <a  href="#portfolio">Portfolio</a> </li>
+                     <li> <a  href="#contact">Contact</a> </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
       </div>
+      <!-- Intro Header -->
+      <header>
+         <div  align="center"><img src="images/sun.jpg" class="img-responsive"></div>
+      </header>
+
 
        <script src="js/jquery-2.1.1.js"></script>
         <script src="js/jqueryui.js"></script>
