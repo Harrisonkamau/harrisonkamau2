@@ -6,7 +6,6 @@
     padding-left: 25px;
   }
 
-
 header h3{
      position: absolute;
      top: 480px;
@@ -34,4 +33,7 @@ header h3{
 #work {
   background: #ddd;
   border-top:4px solid white;
+}
+.container-collapse a{
+  text-decoration: none;
 }
