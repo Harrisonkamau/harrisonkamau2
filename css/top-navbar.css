@@ -100,3 +100,7 @@ html, body {
 	padding: 3px 5px 0;
 	margin-bottom: 0;
 }
+.mnav a:hover{
+	color:orange;
+
+}
