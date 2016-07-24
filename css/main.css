@@ -94,3 +94,25 @@ textarea{
 input[type=text]:focus,textarea:focus {
 	border-color: #4697e4;
 }
+
+/*Footer*/
+/*Footer*/
+.blank{
+  padding-top:30px;
+  width: 80%;
+}
+
+footer span,a{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:grey;
+}
+footer a{
+  /*text-align: center;*/
+  margin-top:-12px;
+  text-decoration: none;
+  color:grey;
+  pad
+}
+footer a:hover{
+  color:#fff;
+}
