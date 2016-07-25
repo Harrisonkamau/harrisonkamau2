@@ -1,6 +1,7 @@
 html, body {
 	width: 100%;
 	height: 100% !important;
+	font-family: 'Raleway', sans-serif;
 }
 /*======= Navigation Bar Section ======= */
 .my-nav a {
@@ -44,6 +45,7 @@ html, body {
 	font-weight: 700;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
 }
 .my-nav .navbar-custom.mnav .nav li a {
  -webkit-transition: background .4s ease-in-out;
