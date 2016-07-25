@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/top-navbar.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/component1.css">
   </head>
   <body>
     <body class="demo">
@@ -111,25 +113,19 @@
 
 
     <!-- Skills -->
-    <div id="skills" style="background:#ddd; border-top:4px solid white;">
-      <div class="wrapper">
-				<section>
-					<h2>rotate-back <br/>perspective</h2>
-					<button class="progress-button" data-style="rotate-back" data-perspective data-horizontal>Submit</button>
-				</section>
-				<section>
-					<h2>flip-open <br/>perspective</h2>
-					<button class="progress-button" data-style="flip-open" data-perspective data-horizontal>Submit</button>
-				</section>
-				<section>
-					<h2>slide-down <br/>horizontal</h2>
-					<button class="progress-button" data-style="slide-down" data-horizontal>Submit</button>
-				</section>
-				<section>
-					<h2>move-up <br/>horizontal</h2>
-					<button class="progress-button" data-style="move-up" data-horizontal>Submit</button>
-				</section>
-			</div>
+    <div id="skills" style="margin-left:20%;" >
+      <div class="content">
+          <div class="col">
+            <h2>My Skills</h2>
+              <ul id="skill">
+              <li><span class="expand html5"></span><em>HTML 5</em></li>
+              <li><span class="expand css3"></span><em>CSS 3</em></li>
+              <li><span class="expand jquery"></span><em>jQuery</em></li>
+              <li><span class="expand python"></span><em>Python</em></li>
+              <li><span class="expand vbnet"></span><em>VB.NET</em></li>
+              </ul>
+          </div>
+          </div>
     </div>
 
 
@@ -186,5 +182,8 @@
        <script src="js/bootstrap.min.js"></script>
        <script src="js/smoothscroll.js"></script>
        <script src="js/mynavbar.js"></script>
+       <script src="js/classie.js"></script>
+       <script src="js/progressButton.js"></script>
+       <script src="js/modernizr.custom.js"></script>
   </body>
 </html>
