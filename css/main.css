@@ -116,7 +116,7 @@ input[type=text]:focus,textarea:focus {
 /*skills*/
 
 .content {
-    width: 780px;
+    width: 970px;
     /*width: 100%;*/
     margin: 0;
     position: relative;
@@ -179,14 +179,14 @@ input[type=text]:focus,textarea:focus {
     -webkit-animation: jquery 2s ease-out;
 }
 
-.python {
+.vbnet {
     width: 10%;
     -moz-animation: python 2s ease-out;
     -webkit-animation: python 2s ease-out;
 }
 
-.vbnet {
-    width: 100%;
+.python {
+    width: 90%;
     -moz-animation: vbnet 2s ease-out;
     -webkit-animation: vbnet 2s ease-out;
 }
