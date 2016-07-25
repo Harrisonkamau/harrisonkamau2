@@ -6,6 +6,10 @@
     padding-left: 25px;
   }
 
+  body{
+    overflow: auto;
+  }
+
 header h3{
      position: absolute;
      top: 480px;
