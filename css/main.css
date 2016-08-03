@@ -114,249 +114,55 @@ input[type=text]:focus,textarea:focus {
 	border-color: #4697e4;
 }
 
-/*skills*/
-
-/*.content {
-    width: 970px;
-    width: 100%;
-    margin: 0;
-    position: relative;
-    float: left;
-    font-size: 12px;
-    line-height: 2em;
-    padding: 30px 0 30px;
-    color: #fff;
+  /*Scroll to top*/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
 }
-
-.col {
-  background: #161616 url(images/pattern_40.gif) top left repeat;"
-    width: 780px;
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
 }
-
-#skill {
-    list-style: none;
-    padding-top: 30px;
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
 }
-
-#skill li {
-    margin-bottom: 70px;
-    background: #000;
-    height: 5px;
-    border-radius: 3px;
-    border-left: 1px solid #111;
-    border-top: 1px solid #111;
-    border-right: 1px solid #333;
-    border-bottom: 1px solid #333;
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
 }
-
-#skill li em {
-    position: relative;
-    top: -30px;
+.no-touch .cd-top:hover {
+  background-color: #d35400;
+  opacity: 1;
 }
-
-.expand {
-    height: 1px;
-    margin: 2px 0;
-    background: #2187e7;
-    position: absolute;
-    box-shadow: 0px 0px 10px 1px rgba(0,198,255,0.4);
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
 }
-
-.html5 {
-    width: 70%;
-    -moz-animation: html5 2s ease-out;
-    -webkit-animation: html5 2s ease-out;
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
 }
-
-.css3 {
-    width: 90%;
-    -moz-animation: css3 2s ease-out;
-    -webkit-animation: css3 2s ease-out;
-}
-
-.jquery {
-    width: 50%;
-    -moz-animation: jquery 2s ease-out;
-    -webkit-animation: jquery 2s ease-out;
-}
-.github {
-    width: 90%;
-    -moz-animation: github 2s ease-out;
-    -webkit-animation: github 2s ease-out;
-}
-.javascript {
-    width: 90%;
-    -moz-animation: javascript 2s ease-out;
-    -webkit-animation: javascript 2s ease-out;
-}
-
-.vbnet {
-    width: 10%;
-    -moz-animation: python 2s ease-out;
-    -webkit-animation: python 2s ease-out;
-}
-
-.python {
-    width: 90%;
-    -moz-animation: vbnet 2s ease-out;
-    -webkit-animation: vbnet 2s ease-out;
-}
-
-@-moz-keyframes html5 {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 70%;
-    };
-}
-
-@-moz-keyframes css3 {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 90%;
-    };
-}
-
-@-moz-keyframes jquery {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 50%;
-    };
-}
-@-moz-keyframes github {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 90%;
-    };
-}
-@-moz-keyframes javascript {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 90%;
-    };
-}
-
-@-moz-keyframes python {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 10%;
-    };
-}
-
-@-moz-keyframes vbnet {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 100%;
-    };
-}
-
-@-webkit-keyframes html5 {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 70%;
-    };
-}
-
-@-webkit-keyframes css3 {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 90%;
-    };
-}
-
-@-webkit-keyframes jquery {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 50%;
-    };
-}
-
-@-webkit-keyframes github {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 90%;
-    };
-}
-@-webkit-keyframes javascript {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 90%;
-    };
-}
-@-webkit-keyframes python {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 10%;
-    };
-}
-
-@-webkit-keyframes vbnet {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 100%;
-    };
-}*/
-/*Footer*/
-
-#footer{
-  margin-top: 30px;
-  width: 100%;
-  height: 100%;
-}
-
-/*image*/
-
-.circular {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(images/profilepic.jpg) no-repeat;
-	}
-
-.circular img {
-	opacity: 0;
-	filter: alpha(opacity=0);
-	}
