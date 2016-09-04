@@ -52,8 +52,8 @@
       <header id="home">
          <div  align="center">
            <img src="images/sun.jpg" class="img-responsive" style="height:600px; width:100%;" alt="Sun Image">
-           <h1 style="vertical-align:center; margin-top:-76px;">Harrison Kamau</h1>
-           <h3 style="font-family: 'Raleway', sans-serif; vertical-align:center; margin-top:-42px; font-weight:600;">Full Stack Web Developer</h3>
+           <h1 style="vertical-align:center; margin-top:-76px; color:black">Harrison Kamau</h1>
+           <h3 style="font-family: 'Raleway', sans-serif; vertical-align:center; margin-top:-42px; font-weight:600; color:black;">Full Stack Web Developer</h3>
 
          </div>
       </header>
@@ -65,7 +65,7 @@
        <div class="container">
           <div class="row">
             <div class="col-md-4">
-               <h3 id="photo" style="font-family: 'Raleway', sans-serif;">My Appearance</h3>
+               <h3 id="photo" style="font-family: 'Raleway', sans-serif;"></h3>
                <img src="images/harrison.jpg" alt="Harrison" />
             </div>
              <div class="col-md-8">
@@ -211,13 +211,13 @@
               <div class="pad-top"></div>
               <h1 style="font-family: 'Lobster', cursive;">Get In Touch</h1>
 
-                <form class="" action="https://formspree.io/kamauharrison87@gmail.com" method="post">
+                <form action="/contact" method="post"> <!--https://formspree.io/kamauharrison87@gmail.com-->
                   <label style="font-size:18px; font-family: 'Raleway', sans-serif;">Name</label>
-                  <input type="text" name="name" placeholder="Your name">
+                  <input type="text" name="name" id="name" placeholder="Your name">
                   <label style="font-size:18px;font-family: 'Raleway', sans-serif;">Email</label>
-                  <input type="text" name="email" placeholder="Your email">
+                  <input type="text" name="email" id="email" placeholder="Your email">
                   <label style="font-size:18px; font-family: 'Raleway', sans-serif;">Message</label>
-                  <textarea name="message" rows="10" cols="15" placeholder="Message"></textarea>
+                  <textarea name="message" rows="10" cols="15" id="message" placeholder="Message"></textarea>
                   <span style="display:inline-block;"><input type="submit" value="Send Message" id="submit">
                     <input type="hidden" name="_next" value="./reply.html" />
                 </form>
