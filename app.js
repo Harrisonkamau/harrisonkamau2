@@ -9,9 +9,11 @@ var app = express();
 // configure path
 app.use(express.static(path.join(__dirname, 'public')));
 
+// connect home route to index.html
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'index.html'));
-})
+});
+
 // start the server
 app.listen(process.env.PORT || 3000, () =>{
   console.log("server running on port 3000");
