@@ -27,6 +27,7 @@ html, body {
 }
 .my-nav .navbar-custom.top-nav-collapse.mnav .navbar-brand.mnav {
 	font-size: 18px;
+	
 }
 .my-nav .navbar-custom.mnav .navbar-brand.mnav:focus {
 	outline: 0;
@@ -69,6 +70,10 @@ html, body {
 }
 .my-nav .navbar-custom.mnav .nav.mnav li.active a:hover {
 	color: #fff;
+	
+}
+.mnav li{
+	font-weight: 800;
 }
 /*======= Top Padding ======= */
 .pad-top {
