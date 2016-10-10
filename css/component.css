@@ -9,7 +9,7 @@
 .color-1 {
   color: #fff;
 }
-nav a {
+div.cl-effect-14 a {
 	position: relative;
 	display: inline-block;
 	margin: 15px 25px;
@@ -23,8 +23,8 @@ nav a {
 	/*font-size: 1.35em;*/
 }
 
-nav a:hover,
-nav a:focus {
+div.cl-effect-14 a:hover,
+div.cl-effect-14 a:focus {
 	outline: none;
   color: #27ae60;
   text-decoration: none;
