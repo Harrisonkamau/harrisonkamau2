@@ -245,3 +245,20 @@ svg image:hover {
   background-color: grey;
   border-bottom: #fff solid 1px;
 }
+
+
+/***
+***
+ ** Skills Section
+ ***
+ ***/
+ .circle1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 50px;
+  /*color: #fff;*/
+  line-height: 500px;
+  text-align: center;
+  background: transparent;
+}
