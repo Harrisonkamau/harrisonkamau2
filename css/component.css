@@ -1,72 +1,98 @@
-
-
-/*.demo-3 .large-header {
-	background: #7f8c8d;
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.demo-4 .large-header {
-	background: #f9f1e9;
-}*/
+.color-1 {
+  color: #fff;
+}
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	/*font-size: 1.35em;*/
+}
 
-/*.main-title {
+nav a:hover,
+nav a:focus {
+	outline: none;
+  color: #27ae60;
+  text-decoration: none;
+}
+
+/* Effect 14: border switch */
+.cl-effect-14 a {
+	padding: 0 20px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
 	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}*/
-
-/*.demo-1 .main-title,
-.demo-3 .main-title {
-	text-transform: uppercase;
-	font-size: 4.2em;
-	letter-spacing: 0.1em;
-}*/
-
-/*.demo-2 .main-title {
-	font-family: 'Clicker Script', cursive;
-	font-weight: normal;
-	font-size: 8em;
-	padding-left: 10px;
-	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-}*/
-
-/*.demo-2 .main-title::before {
+	width: 45px;
+	height: 2px;
+	background: #fff;
+  color: #fff;
 	content: '';
-	width: 20vw;
-	height: 20vw;
-	min-width: 3.5em;
-	min-height: 3.5em;*/
-	/*background: url(../assets/demo-2-bg.jpg) no-repeat center center;*/
-	/*background-size: cover;*/
-	/*position: absolute;*/
-	/*top: 50%;
-	left: 50%;*/
-	/*border-radius: 50%;*/
-	/*z-index: -1;*/
-	/*-webkit-transform: translate3d(-50%,-50%,0);*/
-	/*transform: translate3d(-50%,-50%,0);*/
-/*}*/
-
-/*.demo-3 .main-title {
-	padding: 10px 40px;
-	border: 10px double #f9f1e9;
-	text-transform: uppercase;
-	font-family: Londrina Outline, sans-serif;
+	opacity: 0.2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	pointer-events: none;
 }
 
-.demo-4 .main-title {
-	font-size: 6em;
-	font-weight: 300;
-	padding: 10px 30px;
-	text-transform: uppercase;
-	color: #222;
-}*/
+.cl-effect-14 a::before {
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
 
-/*.main-title .thin {
-	font-weight: 200;
-}*/
+.cl-effect-14 a::after {
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+	opacity: 1;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
+}
