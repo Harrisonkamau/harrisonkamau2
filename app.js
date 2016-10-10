@@ -2,16 +2,23 @@
 var express = require('express');
 var nodemailer = require('nodemailer');
 var path = require('path');
+var bodyParser = require('body-parser');
 
 // create express app
 var app = express();
 
-// configure path
-app.use(express.static(path.join(__dirname, 'public')));
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
 
+// set app configurations
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.json());
+
+// set render engine
+app.engine('.html', require('ejs').renderFile);
 // connect home route to index.html
 app.get('/', function(req, res){
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.res(path.join(__dirname, 'index.html'));
 });
 
 // handling the contact post request
@@ -35,11 +42,11 @@ app.post('/contact', function (req, res) {
   smtpTrans.sendMail(mailOpts, function (error, response) {
       //Email not sent
       if (error) {
-          res.render('contact', { title: 'Raging Flame Laboratory - Contact', msg: 'Error occured, message not sent.', err: true, page: 'contact' })
+          res.render('contact',{ err: true, page: 'contact' })
       }
       //Yay!! Email sent
       else {
-          res.render('contact', { title: 'Raging Flame Laboratory - Contact', msg: 'Message sent! Thank you.', err: false, page: 'contact' })
+          res.render('contact', { err: false, page: 'contact' })
       }
   });
 });
