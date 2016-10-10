@@ -22,20 +22,20 @@ html, body {
 }
 .my-nav .navbar-custom.mnav .navbar-brand.mnav {
 	font-size: 26px;
-	letter-spacing: -2px;
+	letter-spacing: -2px !important;
 	text-transform: none;
 }
 .my-nav .navbar-custom.top-nav-collapse.mnav .navbar-brand.mnav {
-	font-size: 18px;
-	
+	font-size: 18px !important;
+
 }
 .my-nav .navbar-custom.mnav .navbar-brand.mnav:focus {
-	outline: 0;
+	outline: 0 !important;
 }
 .my-nav .navbar-custom.mnav .navbar-brand.mnav .navbar-toggle {
-	padding: 4px 6px;
-	font-size: 16px;
-	color: #fff;
+	padding: 4px 6px !important;
+	font-size: 16px !important;
+	color: #fff !important;
 }
 .my-nav .navbar-custom.mnav .navbar-brand .navbar-toggle:focus, .my-nav .navbar-custom.mnav .navbar-brand .navbar-toggle:active {
 	outline: 0;
@@ -59,21 +59,21 @@ html, body {
 	background-color: transparent;
 }
 .my-nav .navbar-custom.mnav .nav li a:focus, .my-nav .navbar-custom.mnav .nav.mnav li a:active {
-	outline: 0;
-	background-color: transparent;
+	outline: 0 !important;
+	background-color: transparent !important;
 }
 .my-nav .navbar-custom.mnav .nav.mnav li.active {
-	outline: 0;
+	outline: 0 !important;
 }
 .my-nav .navbar-custom.mnav .nav.mnav li.active a {
 	color: #FFFF00;
 }
 .my-nav .navbar-custom.mnav .nav.mnav li.active a:hover {
-	color: #fff;
-	
+	color: #fff !important;
+
 }
 .mnav li{
-	font-weight: 800;
+	font-weight: 800 !important;
 }
 /*======= Top Padding ======= */
 .pad-top {
@@ -101,11 +101,11 @@ html, body {
 }
 }
 .my-nav .top-nav-collapse.mnav .container.mnav {
-	width: auto;
+	width: auto !important;
 }
 .my-nav .navbar-toggle {
 	padding: 3px 5px 0;
-	margin-bottom: 0;
+	margin-bottom: 0 !important;
 }
 .mnav a:hover{
 	color:orange;
