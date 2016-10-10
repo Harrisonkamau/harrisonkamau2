@@ -174,7 +174,13 @@ input[type=text]:focus,textarea:focus {
   color: #fff;
 }
 
-/*circle avatar section*/
+
+/***
+***
+ **circle avatar section
+ ***
+ ***/
+
 div.circle-avatar{
 /* make it responsive */
 max-width: 100%;
@@ -204,6 +210,7 @@ right: 0;
 bottom: 0;
 }
 
+/*overlay on the avatar*/
 .greyscale{
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
     filter: gray; /* IE6-9 */
@@ -225,4 +232,16 @@ svg image {
 
 svg image:hover {
     opacity: 0;
+}
+
+
+/***
+***
+ **Navbar Hover Effects
+ ***
+ ***/
+
+.nav a:hover{
+  background-color: grey;
+  border-bottom: #fff solid 1px;
 }
