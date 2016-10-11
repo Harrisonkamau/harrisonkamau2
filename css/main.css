@@ -262,3 +262,12 @@ svg image:hover {
   text-align: center;
   background: transparent;
 }
+
+/***
+***
+ ** Contact Form
+ ***
+ ***/
+ #contact{
+   background: url(/images/contact.jpg);
+ }
