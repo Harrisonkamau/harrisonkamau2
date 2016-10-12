@@ -486,3 +486,12 @@ form input{
 	-webkit-transform: scale3d(0.8, 0.8, 1);
 	transform: scale3d(0.8, 0.8, 1);
 }
+
+/***
+***
+ ** Footer
+ ***
+ ***/
+ .footer p {
+   text-align: center;
+ }
