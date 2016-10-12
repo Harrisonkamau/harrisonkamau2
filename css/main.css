@@ -301,12 +301,11 @@ form #input-submit {
   color: white;
   border-radius: 28px;
   background: #e74c3c;
-  background: #008000;
+  background: #ff5252;
+  border-color: #ff5252;
   cursor: pointer;
 }
-form #input-submit: hover{
-  background: #27AE60;
-}
+
 
 form textarea {
   height: 126px;
