@@ -14,14 +14,15 @@
     <!-- Favicon -->
 
     <!--<link rel="icon" href="images/favicon2.ico" style="background:#D35400;"type="image/x-icon" />-->
-    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <link rel="stylesheet" href="css/component.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/jquery-ui.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/top-navbar.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vicons-font.css">
 
   </head>
   <body>
@@ -168,7 +169,7 @@
         </div>
 
       </div>
-
+      <div class="pad-top"></div>
     </div>
 
 
@@ -176,24 +177,39 @@
     <div id="contact">
       <div class="container">
         <div class="row grid">
-          <h2>Contact me</h2>
-            <form class="cf" action="https://formspree.io/kamauharrison87@gmail.com" method="post" onSubmit="alert('Thank for reaching out. I will get back to you shortly');">
-            <div class="half left cf">
-              <input type="text" id="input-name" placeholder="Name" required>
-              <input type="email" id="input-email" placeholder="Email address" required>
-              <input type="text" id="input-subject" placeholder="Subject" required>
-              
-            </div>
-            <div class="half right cf">
-              <textarea name="message" type="text" id="input-message" placeholder="Message" required></textarea>
-            </div>
-            <input type="submit" value="Submit" id="input-submit">
-            <input type="hidden" name="_next" value="/" />
-          </form>
+          <div class="col-md-6">
+            <h2>Contact me</h2>
+              <form class="cf" action="https://formspree.io/kamauharrison87@gmail.com" method="post" onSubmit="alert('Thank for reaching out. I will get back to you shortly');">
+              <div class="half left cf">
+                <input type="text" id="input-name" placeholder="Name" required>
+                <input type="email" id="input-email" placeholder="Email address" required>
+                <input type="text" id="input-subject" placeholder="Subject" required>
+
+              </div>
+              <div class="half right cf">
+                <textarea name="message" type="text" id="input-message" placeholder="Message" required></textarea>
+              </div>
+              <input type="submit" value="Submit" id="input-submit">
+              <input type="hidden" name="_next" value="/" />
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h2>Social Media</h2>
+            <div class="box bg-1">
+					<button class="button button--antiman button--round-l button--text-medium"><i class="fa fa-twitter" aria-hidden="true"></i><span>Follow Me</span></button>
+          <button class="button button--antiman button--round-l button--text-medium"><i class="fa fa-linkedin" aria-hidden="true"></i><span>Follow Me</span></button>
+          <button class="button button--antiman button--round-l button--text-medium"><i class="fa fa-facebook" aria-hidden="true"></i><span>Follow Me</span></button>
+          <button class="button button--antiman button--round-l button--text-medium"><i class="fa fa-github" aria-hidden="true"></i><span>Follow Me</span></button>
+        </div>
+          </div>
+
         </div>
 
           </div>
+            <div class="pad-top"></div>
           </div>
+
+          <!-- Footer -->
 
 
 
@@ -209,7 +225,7 @@
         <script src="js/jquery-validate/dist/jquery.validate.min.js"></script>
         <script src="js/jquery-validate/dist/additional-methods.min.js"></script>
        <script src="js/bootstrap.min.js"></script>
-       <script src="js/form_validation.js"></script>
+       <!-- <script src="js/form_validation.js"></script> -->
        <script src="js/smoothscroll.js"></script>
        <script src="js/mynavbar.js"></script>
        <script src="js/back-to-top.js"></script>
