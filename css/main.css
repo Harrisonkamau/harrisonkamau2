@@ -299,8 +299,13 @@ form input:focus, form textarea:focus {
 }
 form #input-submit {
   color: white;
+  border-radius: 28px;
   background: #e74c3c;
+  background: #008000;
   cursor: pointer;
+}
+form #input-submit: hover{
+  background: #27AE60;
 }
 
 form textarea {
