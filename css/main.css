@@ -519,6 +519,20 @@ form input{
      height: auto;
      width: 100%;
    }
+   .username h1{
+     font-size: 32px;
+     /*margin-top: -200px;*/
+   }
+   .username h3{
+     font-size: 20px;
+   }
+   #contact {
+     background: url(/images/contact.jpg);
+     padding-bottom: 0;
+   }
+   .footer{
+     margin-top: 0px;
+   }
  }
 
  @media screen only and(max-width:324px)  {
