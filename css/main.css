@@ -499,3 +499,33 @@ form input{
  .footer p {
    text-align: center;
  }
+
+
+ /*responsive navbar*/
+ @media only screen and (max-width:768px)  {
+   .my-nav{
+     width: 100%;
+   }
+   .navbar-header{
+     width: 100%;
+   }
+   #input-submit{
+     width: 100%;
+   }
+   .over-ln{
+     width: 80%;
+   }
+   .circle-avatar,{
+     height: auto;
+     width: 100%;
+   }
+ }
+
+ @media screen only and(max-width:324px)  {
+   .my-nav{
+     width: 100%;
+   }
+   .navbar{
+     width: 100%;
+   }
+ }
