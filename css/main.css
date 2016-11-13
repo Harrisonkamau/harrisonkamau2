@@ -53,7 +53,11 @@ header h3{
   text-decoration: none;
 }
 
-/*Contact Form*/
+/*
+  ********************************
+  Contact Form 
+  *********************************
+*/
 
 .columns form{
     background-color: #f2f2f2;
@@ -114,7 +118,11 @@ input[type=text]:focus,textarea:focus {
 	border-color: #4697e4;
 }
 
-  /*Scroll to top*/
+/*
+  ********************************
+  Scroll to top
+  *********************************
+*/
 .cd-top {
   display: inline-block;
   height: 40px;
@@ -175,11 +183,11 @@ input[type=text]:focus,textarea:focus {
 }
 
 
-/***
-***
- **circle avatar section
- ***
- ***/
+/*
+  ********************************
+  Circle avatar section
+  *********************************
+*/
 
 div.circle-avatar{
 /* make it responsive */
@@ -247,11 +255,11 @@ svg image:hover {
 }
 
 
-/***
-***
- ** Skills Section
- ***
- ***/
+/*
+  ********************************
+  Skills section
+  *********************************
+*/
  .circle1 {
   width: 100px;
   height: 100px;
@@ -263,11 +271,11 @@ svg image:hover {
   background: transparent;
 }
 
-/***
-***
- ** Contact Form
- ***
- ***/
+/*
+  ********************************
+  More Contact Form styling rules
+  *********************************
+*/
  #contact{
    background: url(/images/contact.jpg);
  }
@@ -351,11 +359,11 @@ form input{
   clear: both;
 }
 
-/***
-***
- ** Social Media
- ***
- ***/
+/*
+  ********************************
+  Social media
+  *********************************
+*/
  .box {
  	padding: 4.5em 0;
  	display: -webkit-flex;
@@ -501,7 +509,7 @@ form input{
  }
 
 
- /*responsive navbar*/
+ /*Break Points*/
  @media only screen and (max-width:768px)  {
    .my-nav{
      width: 100%;
