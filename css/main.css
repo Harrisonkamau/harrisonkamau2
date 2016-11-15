@@ -55,7 +55,7 @@ header h3{
 
 /*
   ********************************
-  Contact Form 
+  Contact Form
   *********************************
 */
 
@@ -499,17 +499,20 @@ form input{
 	transform: scale3d(0.8, 0.8, 1);
 }
 
-/***
-***
- ** Footer
- ***
- ***/
+ /*
+  ********************************
+  Footer
+  *********************************
+*/
  .footer p {
    text-align: center;
  }
 
-
- /*Break Points*/
+  /*
+  ********************************
+  Break Points
+  *********************************
+*/
  @media only screen and (max-width:768px)  {
    .my-nav{
      width: 100%;
