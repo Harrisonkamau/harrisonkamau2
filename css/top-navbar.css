@@ -67,6 +67,7 @@ html, body {
 }
 .my-nav .navbar-custom.mnav .nav.mnav li.active a {
 	color: #FFFF00;
+	color: orange;
 }
 .my-nav .navbar-custom.mnav .nav.mnav li.active a:hover {
 	color: #fff !important;
