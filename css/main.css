@@ -1,7 +1,8 @@
-/*@@media screen only and (min-width:860px) and (max-width:1560px) {*/
-  .navbar-nav{
-    /*padding-left: 18%;*/
-  }
+/*
+  ********************************
+  Navigation
+  *********************************
+*/
   .navbar-nav li{
     padding-left: 25px;
   }
@@ -36,6 +37,12 @@ header h3{
      width: 100%;
   }
 
+/*
+  ********************************
+  About section
+  *********************************
+*/
+
 #about h3{
   font-family: 'Lobster', cursive;
 
@@ -44,6 +51,11 @@ header h3{
   background: #ddd;
 }
 
+/*
+  ********************************
+  Work
+  *********************************
+*/
 #work {
   background: #000;
   color: #fff;
@@ -160,6 +172,13 @@ input[type=text]:focus,textarea:focus {
   background-color: #d35400;
   opacity: 1;
 }
+
+/*
+  ********************************
+  Break Points
+  *********************************
+*/
+
 @media only screen and (min-width: 768px) {
   .cd-top {
     right: 20px;
@@ -314,6 +333,13 @@ form #input-submit {
   cursor: pointer;
 }
 
+form #input-submit:hover {
+  color: white;
+  border-radius: 28px;
+  background: #ff5252;
+  border-color: #fff;
+  cursor: pointer;
+}
 
 form textarea {
   height: 126px;
@@ -411,6 +437,11 @@ form input{
 .bg-1 .button {
 	color: #37474f;
 	border-color: #37474f;
+}
+.button--text-medium:hover {
+  background: #ff5252;
+  border-color: #fff;
+  color: #fff;
 }
 .button--text-medium {
 	font-weight: 500;
@@ -554,3 +585,9 @@ form input{
      width: 100%;
    }
  }
+
+ /*
+  ********************************
+    Header Intro effect
+  *********************************
+ */
