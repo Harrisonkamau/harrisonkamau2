@@ -33,14 +33,15 @@ router.post('/contact', (req, res) => {
   // Email object
   let email = {
     from: req.body.email,
-    to: 'andynelson629@gmail.com',
+    to: 'kamauharrison87@gmail.com',
     subject: req.body.subject,
     html: req.body.message
   };
-
+  console.log(email.from);
   return _send(email, res.render('reply'));
 
 })
+
 
 // Private Helper function to send emails
 function _send(obj, callback) {
