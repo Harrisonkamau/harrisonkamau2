@@ -1,0 +1,35 @@
+/*
+  ********************************
+  Main body
+  *********************************
+*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+/* Fancy Header */
+body {
+  margin-top: 60px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+  font-size: 19px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Home button */
+.btn-submit {
+	border: 2px solid orangered;
+  color: #fff;
+	background-color: orangered;
+  width: 10em;
+  height: 2em;
+}
+.btn-submit:hover,
+.btn-submit:active {
+	color: #000;
+	background-color: #fff;
+}
