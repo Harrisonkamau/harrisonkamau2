@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+/*
+  ********************************
+  Navigation
+  *********************************
+*/
+  .navbar-nav li{
+    padding-left: 25px;
+  }
+
+  body{
+    overflow: auto;
+  }
+
+header h3{
+     position: absolute;
+     top: 480px;
+     left: 0;
+     width: 100%;
+
+  }
+  header a{
+       position: absolute;
+       top: 540px;
+       left: 0;
+       width: 100%;
+       color: black;
+       /*font-size: 30px;*/
+
+
+    }
+  header h1 {
+     position: absolute;
+     font-family: 'Lobster', cursive;
+     font-size: 70px;
+     top: 400px;
+     left: 0;
+     width: 100%;
+  }
+
+/*
+  ********************************
+  About section
+  *********************************
+*/
+
+#about h3{
+  font-family: 'Lobster', cursive;
+
+}
+#about {
+  background: #ddd;
+}
+
+/*
+  ********************************
+  Work
+  *********************************
+*/
+#work {
+  background: #000;
+  color: #fff;
+  /*border-top:4px solid white;*/
+}
+.container-collapse a{
+  text-decoration: none;
+}
+
+/*
+  ********************************
+  Scroll to top
+  *********************************
+*/
+#scroll-btn {
+  border-radius: 28px;
+  width: 100px;
+  text-decoration: none;
+  color: #fff;
+	background-color: orangered;
+}
+
+/*
+  ********************************
+  Break Points
+  *********************************
+*/
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+#work, #about{
+  background: #2f3238;
+}
+#about{
+  color: #fff;
+}
+
+
+/*
+  ********************************
+  Circle avatar section
+  *********************************
+*/
+
+div.circle-avatar{
+/* make it responsive */
+max-width: 100%;
+width:100%;
+height:auto;
+display:block;
+opacity: 1;
+/* div height to be the same as width*/
+padding-top:100%;
+
+/* make it a cirkle */
+border-radius:50%;
+
+/* Centering on image`s center*/
+background-position-y: center;
+background-position-x: center;
+background-repeat: no-repeat;
+
+/* it makes the clue thing, takes smaller dimention to fill div */
+background-size: cover;
+
+/* it is optional, for making this div centered in parent*/
+margin: 0 auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+/*overlay on the avatar*/
+.greyscale{
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+.greyscale:hover{
+  filter: none;
+    -webkit-filter: grayscale(0%);
+}
+vg {
+    background:url(/images/harry.jpg);
+}
+
+svg image {
+    transition: all .6s ease;
+}
+
+svg image:hover {
+    opacity: 0;
+}
+
+
+/***
+***
+ **Navbar Hover Effects
+ ***
+ ***/
+
+.nav a:hover{
+  background-color: grey;
+  border-bottom: #fff solid 1px;
+}
+
+
+/*
+  ********************************
+  Skills section
+  *********************************
+*/
+ .circle1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 50px;
+  /*color: #fff;*/
+  line-height: 500px;
+  text-align: center;
+  background: transparent;
+}
+
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+
+
+/*
+  ********************************
+  Social media
+  *********************************
+*/
+#contact {
+  background-color: #fff;
+  color: #000;
+}
+.contact-form {
+  /*margin: 120px;*/
+}
+
+.input-group label {
+  font-weight: normal;
+}
+
+.input-group input, .input-group textarea {
+  width: 300px !important;
+}
+
+/* Override bootstrap blue glow */
+.form-group input:focus {
+  border-color:lightgreen; 
+}
+.form-group textarea:focus {
+  border-color:lightgreen; 
+}
+
+#social-media a, #email a {
+  text-decoration: none;
+  color: #000;
+}
+
+#social-media a:hover, #email a:hover {
+  text-decoration: none;
+  color: orangered;
+}
+/*
+====================================
+    Submit buttons
+====================================
+*/
+.btn-submit {
+	border: 2px solid orangered;
+  background-color:#fff; 
+	color: black;
+  width: 18em;
+  height: 3em;
+}
+.btn-submit:hover,
+.btn-submit:active {
+	color: #fff;
+	background-color: orangered;
+}
+
+/*
+  ********************************
+  Social media
+  *********************************
+*/
+ .btn-round {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  color: #000;
+	background-color: #fff;
+}
+
+.btn-round:hover {
+  color: #fff;
+  background-color: orangered;
+}
+
+ /*
+  ********************************
+  Footer
+  *********************************
+*/
+ .footer p {
+   text-align: center;
+ }
+

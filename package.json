@@ -1,0 +1,29 @@
+{
+  "name": "harrisonkamau",
+  "version": "1.0.0",
+  "description": "<h1>Portfolio</h1> <p>A personal portfolio detailing <a href=\"https://github.com/Harrisonkamau/\">Harrison Kamau's</a> career track record.</p> <p>This site utilizes technologies such as JavaScript (jQuery), HTML5,CSS3 and Twitter Bootstrap</p> <p>Contact me via <a href=\"kamauharrison87@gmail.com\">email</a> or leave a comment on this repo</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harrisonkamau/harrisonkamau.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harrisonkamau/harrisonkamau/issues"
+  },
+  "homepage": "https://github.com/Harrisonkamau/harrisonkamau#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "nodemailer": "^4.0.1",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
