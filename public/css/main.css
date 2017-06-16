@@ -155,9 +155,6 @@ bottom: 0;
   filter: none;
     -webkit-filter: grayscale(0%);
 }
-vg {
-    background:url(/images/harry.jpg);
-}
 
 svg image {
     transition: all .6s ease;
@@ -197,15 +194,6 @@ svg image:hover {
 }
 
 
-@media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-bottom: 0;
-  }
-}
-
-
 /*
   ********************************
   Social media
@@ -214,9 +202,6 @@ svg image:hover {
 #contact {
   background-color: #fff;
   color: #000;
-}
-.contact-form {
-  /*margin: 120px;*/
 }
 
 .input-group label {
