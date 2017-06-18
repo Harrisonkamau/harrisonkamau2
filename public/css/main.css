@@ -225,9 +225,32 @@ svg image:hover {
   color: #000;
 }
 
-#social-media a:hover, #email a:hover {
-  text-decoration: none;
-  color: orangered;
+/*Maintain Default colors for social media icons */
+#twitter:hover {
+  color: #55acee;
+}
+
+#facebook:hover {
+  color: #3b5998;
+}
+
+#linkedIn:hover {
+  color: #007bb5;
+}
+
+#google-plus:hover {
+  color:#dd4b39;
+}
+
+#email-icon:hover {
+  color: #ea4335;
+}
+#github:hover {
+  color: #000000;
+}
+
+#medium:hover {
+  color: #00ab6c;
 }
 /*
 ====================================
