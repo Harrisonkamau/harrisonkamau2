@@ -39,4 +39,4 @@ app.use((req, res) => {
 // start server
 app.listen(port, () => {
   console.log(`Running on http://localhost:${port}`);
-})
+});

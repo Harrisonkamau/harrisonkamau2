@@ -114,7 +114,7 @@ header h3{
   *********************************
 */
 
-div.circle-avatar{
+div.circle-avatar {
 /* make it responsive */
 max-width: 100%;
 width:100%;
@@ -124,7 +124,7 @@ opacity: 1;
 /* div height to be the same as width*/
 padding-top:100%;
 
-/* make it a cirkle */
+/* make it a circle */
 border-radius:50%;
 
 /* Centering on image`s center*/
@@ -214,10 +214,10 @@ svg image:hover {
 
 /* Override bootstrap blue glow */
 .form-group input:focus {
-  border-color:lightgreen; 
+  border-color:lightgreen;
 }
 .form-group textarea:focus {
-  border-color:lightgreen; 
+  border-color:lightgreen;
 }
 
 #social-media a, #email a {
@@ -259,7 +259,7 @@ svg image:hover {
 */
 .btn-submit {
 	border: 2px solid orangered;
-  background-color:#fff; 
+  background-color:#fff;
 	color: black;
   width: 18em;
   height: 3em;
